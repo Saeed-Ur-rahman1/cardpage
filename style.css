@@ -1,11 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: sans-serif;
 }
 .contianer{
     height: 60vh;
-    width: 45vw;
+    width: 50vw;
+    background-color: rgba(1, 1, 66, 0.88);
     border: 1px solid black;
     border-radius: 20px;
     margin: auto;
@@ -18,11 +20,13 @@ a{
 }
 .btn{
     margin: 10px;
-    padding: 18px 82px;
+    padding: 18px 80px;
     border: 1px solid black;
     border-radius: 5px;
     display: inline-block;
-    text-align: end;
     overflow: hidden;
-    
+    background-color: blue;
+}
+.btn:hover{
+    background-color: rgb(254, 254, 201);
 }
